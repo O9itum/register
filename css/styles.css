@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: FA;
+    src: url("../fontawesome/webfonts/fa-solid-900.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+body {
+    font-family: "Nunito";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, #F8F8FA 50%);
+}
+
+header {
+    text-align: center;
+    padding: 27px 5px 56px 0;
+}
+
+.main {
+    padding-top: 56px;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.form {
+    max-width: 600px;
+    padding-right: 85px;
+    padding-left: 63px;
+    padding-bottom: 50px;
+}
+
+.form-title {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.form-text {
+    margin: 8px 0 71px 0;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    max-width: 450px;
+}
+
+
+
+.form-input {
+    display: block;
+    width: 100%;
+    height: 32px;
+    font-family: 'Nunito';
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    border-bottom: 1px solid #C6C6C4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+
+.label1::before {
+    content: "Full name";
+}
+.label2::before {
+    content: "Your username";
+}
+.label3::before {
+    content: "E-mail";
+}
+.label4::before {
+    content: "Password";
+}
+.label5::before {
+    content: "Repeat Password";
+}
+
+.agree {
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+.agree label {
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+#agree {
+    margin-right: 10px;
+}
+
+.button {
+    width: 210px;
+    height: 70px;
+    background: #DD3142;
+    border-radius: 40px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: none;
+    margin: 22px 0;
+}
+
+.refer {
+    margin-top: 22px;
+}
+.refer a {
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    text-decoration: none;
+}
+
+.image {
+    max-width: 600px;
+    margin-left: 11px;
+    margin-top: 16px;
+}
+
+.popup {
+    text-align: center;
+    background-color: #F8F8FA;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0; 
+    pointer-events: none; 
+    transition: 0.5s all;
+}
+
+.popup.active { 
+    opacity: 1; 
+    pointer-events: all; 
+    transition: 0.5s all;
+    
+}
+
+.popup__title {
+    top: 40%;
+    font-size: 16px;
+}
+
+#popup__button{
+    scale: 0.5;
+}

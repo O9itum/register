@@ -1,0 +1,59 @@
+
+/*768-1023*/
+@media screen and (max-width: 1059px) {
+
+    body {
+        background: white;
+    }
+    .main{
+        flex-direction: column;
+        gap: 30px;
+      
+    }
+
+    .form {
+        align-self: center;
+    }
+
+    .image {
+        text-align: center;
+        align-self: center;
+    }
+
+    .image svg {
+        width: 100%;
+    }
+
+}
+
+/*425-767*/
+@media screen and (max-width: 506px) {
+
+    .main{
+        margin-bottom: 80px;
+        padding-top: 0;
+    }
+
+    .form {
+        padding: 0 25px;
+    }
+
+    .form-title{
+        font-size: 24px;
+    }
+
+    .form-text {
+        font-size: 14px;
+    }
+
+    .image{
+        display: none;
+    }
+
+    
+}
+
+/*320-374*/
+@media screen and (max-width: 374px) {
+
+}
