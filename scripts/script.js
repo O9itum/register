@@ -98,5 +98,9 @@ window.onload = function () {
         logIn();    
     }
 console.log("this file was deleted in my task branch");
+<<<<<<< HEAD
 console.log("new message");
+=======
+console.log("Other user message");
+>>>>>>> Other user message
 }
