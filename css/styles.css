@@ -73,7 +73,7 @@ header {
 .label {
     font-size: 16px;
     line-height: 27px;
-    color: #C6C6C4;
+    color: #C6C656;
 }
 
 .label1::before {
@@ -110,11 +110,11 @@ header {
 .button {
     width: 210px;
     height: 70px;
-    background: #DD3142;
+    background: #DD3150;
     border-radius: 40px;
     font-size: 20px;
     line-height: 27px;
-    color: #FFFFFF;
+    color: #FFFFAA;
     border: none;
     margin: 22px 0;
 }
